@@ -4,7 +4,7 @@ SRC_DIR = src
 INC_DIR = inc
 OUT_DIR = out
 
-SOURCES = $(SRC_DIR)/main.c $(SRC_DIR)/file_io.c $(SRC_DIR)/number_operations.c $(SRC_DIR)/mem_handle.c
+SOURCES = $(SRC_DIR)/main.c $(SRC_DIR)/file_input.c $(SRC_DIR)/transform_data.c $(SRC_DIR)/file_output.c
 OBJECTS = $(SOURCES:$(SRC_DIR)/%.c=$(OUT_DIR)/%.o)
 
 EXECUTABLE = app.exe
